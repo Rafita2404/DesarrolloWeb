@@ -7,6 +7,9 @@ import { defineConfig } from 'vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+    // La clave está en esta línea. 
+    // Debe ser el nombre del repositorio, rodeado de diagonales.
+    base: '/DesarrolloWeb/', 
     optimizeDeps: {
         noDiscovery: true
     },
